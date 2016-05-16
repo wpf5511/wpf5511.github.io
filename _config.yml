@@ -1,32 +1,18 @@
-# Permalinks
-permalink:           pretty
-
-# Setup
-title:               Wpf's Blog
-tagline:             The Jekyll Butler
-url:                 http://wpf5511.github.io
-paginate:            1
-baseurl:             ""
-
-# Assets
+# Welcome to Jekyll!
 #
-# We specify the directory for Jekyll so we can use @imports.
-sass:
-  sass_dir:          _sass
-  style:            :compressed
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-# About/contact
-author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+# Site settings
+title: Gravity
+email: hemangsk@gmail.com
+description: The Liberal Jekyll Theme
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: hemang_kumar
+github_username:  hemangsk
 
-# Custom vars
-version:             2.0.0
-github:
-  repo:              https://github.com/poole/poole
-
-# Gems
-gems:
-  - jekyll-paginate
-  - jekyll-gist
+# Build settings
+markdown: kramdown
